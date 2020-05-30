@@ -1,0 +1,24 @@
+<h2>YOUTUBE</h2>
+
+<input placeholder="Search your favorite videos" [(ngModel)]="input" />
+<button (click)="onClick()">submit</button>
+
+<!-- 
+<div *ngFor="let item of data">
+<h2>{{ item.name }}</h2> 
+<a href='www.google.com/{{item.name}}'>link</a>
+</div> -->
+
+
+
+<ng-container>
+    <ul *ngFor='let item of searchResults'>
+        <img width="200" height="200" src="{{ item.snippet.thumbnails.medium.url }}">
+        {{ item.snippet.title }}
+    
+    
+    
+    
+    </ul>
+
+</ng-container>
