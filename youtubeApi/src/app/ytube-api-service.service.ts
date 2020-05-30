@@ -9,8 +9,8 @@ export class YtubeApiServiceService {
 
   constructor(private http: HttpClient) { }
 
-apiKey: string  = 'AIzaSyCWDrIo9ZKw7ndY_fx9QJtqNU7Zbxp9ejk';
-
+apiKey: string ;
+// key removed
 
 
 getYoutube(query): Observable<any> {
