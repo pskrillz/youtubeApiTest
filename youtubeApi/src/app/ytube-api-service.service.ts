@@ -7,9 +7,9 @@ import { Observable } from 'rxjs';
 })
 export class YtubeApiServiceService {
 
-  constructor(public http: HttpClient) { }
+  constructor(private http: HttpClient) { }
 
-apiKey: string = 'AIzaSyCWDrIo9ZKw7ndY_fx9QJtqNU7Zbxp9ejk';
+apiKey: string  = 'AIzaSyCWDrIo9ZKw7ndY_fx9QJtqNU7Zbxp9ejk';
 
 
 
